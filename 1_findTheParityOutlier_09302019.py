@@ -1,12 +1,12 @@
 # Using Modulo:
 def findOutlier(integers1):
     output = 0
-    if (((integers[0]/2) % 1 == 0) or ((integers[1]/2) % 1 == 0)) and (((integers[2]/2) % 1 == 0) or ((integers[3]/2) % 1 == 0)):
-        for integer in integers:
+    if (((integers1[0]/2) % 1 == 0) or ((integers1[1]/2) % 1 == 0)) and (((integers1[2]/2) % 1 == 0) or ((integers1[3]/2) % 1 == 0)):
+        for integer in integers1:
             if ( ((integer)/2) % 1) != 0:
                 output = integer
     else:
-        for integer in integers:
+        for integer in integers1:
             if ( ((integer+1)/2) % 1) != 0:
                 output = integer
     
@@ -26,7 +26,7 @@ def findOutlier2(integers2):
 print(findOutlier2([3,5,7,9,13,11,15,4,7,9,21,15,1]))
 
 # Best Python Practice solution from user1978124:
-def find_outlier(integer3):
-    odds = [x for x in integer3 if x%2!=0]
-    evens= [x for x in integer3 if x%2==0]
+def find_outlier(integers3):
+    odds = [x for x in integers3 if x%2!=0]
+    evens= [x for x in integers3 if x%2==0]
     return odds[0] if len(odds)<len(evens) else evens[0]
