@@ -27,7 +27,7 @@ function findOutlier(integers){
 
 findOutlier([3,5,7,9,13,11,15,4,7,9,21,15,1]);
 
-// COOL SOLUTION, using 3 lines of code from Obolensky:
+// COOL SOLUTION, using 3 lines of code, modulus, and ternary operator from Obolensky:
 function findOutlier(int) {
     var even = int.filter(a=>a%2==0);
     var odd = int.filter(a=>a%2!==0);
