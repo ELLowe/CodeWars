@@ -15,5 +15,9 @@ def jadenCased(quotedWords):
     
     
     return x.join(upperCased)
-    
+
 jadenCased("How can mirrors be real if our eyes aren't real")
+
+# Best Practice solution by Azuaron:
+def toJadenCase(string):        
+    return " ".join(w.capitalize() for w in string.split())
