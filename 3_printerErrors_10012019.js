@@ -37,7 +37,7 @@ printer_error("aanbbcccncddefghijklmn");
 function printer_errors(inputString){
     let input = inputString.split("");
 
-    let a2m = input.filter(a => a < "n");;
+    let a2m = input.filter(a => a < "n");
     let n2z = input.filter(a => a > "m");
     return n2z.length + "/" + (a2m.length + n2z.length);
 
