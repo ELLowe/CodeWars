@@ -17,3 +17,15 @@ function toInt(string){
     
 }
 
+// This topic is tag Regular Expressions... not a focus at this time
+
+// FUNDAMENTAL... strings, numbers, boolean -> like how do you reverse a string or depcit if a string is a palendrome?
+// How do you know if one string is inside of another string?
+// 
+// ALGORITHMS ARE HUGE
+
+// Arrays and data types
+
+// math problems
+
+// Learn REACT
